@@ -1,0 +1,326 @@
+/* line 3, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box; }
+
+/* line 9, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+::-moz-selection {
+  background: #e5c100; }
+::selection {
+  background: #e5c100; }
+
+/* line 12, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+body {
+  background-color: white; }
+
+/* line 16, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+#social {
+  width: 100%;
+  height: 10vh;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 12px 11px 0 0;
+  z-index: 11;
+  position: fixed;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+  /* line 24, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+  #social img {
+    width: 17px;
+    margin-right: 5px; }
+  @media (max-width: 1000px) {
+    /* line 16, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+    #social {
+      display: none; } }
+
+/* line 34, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+#header {
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  height: 100%; }
+  /* line 39, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+  #header img {
+    width: 35%; }
+    @media (max-width: 800px) {
+      /* line 39, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+      #header img {
+        width: 40%; } }
+    @media (max-width: 500px) {
+      /* line 39, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+      #header img {
+        width: 55%; } }
+
+/* line 51, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+#maroon {
+  background-color: #782c35;
+  width: 100vw;
+  height: 10px;
+  overflow: hidden;
+  margin-bottom: -2px; }
+
+/* line 58, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+#light-maroon {
+  width: 0;
+  height: 0;
+  border-right: 50vw solid transparent;
+  border-top: 450px solid #963843; }
+
+/* line 64, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+.navbar-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  /* line 67, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+  .navbar-nav a {
+    font-family: "Franklin Gothic";
+    font-size: 14px; }
+    @media (max-width: 900px) {
+      /* line 67, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+      .navbar-nav a {
+        font-size: 12px; } }
+    @media (max-width: 700px) {
+      /* line 67, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+      .navbar-nav a {
+        font-size: 10px; } }
+
+/* line 80, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+.fixed-style {
+  position: fixed;
+  margin-top: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10; }
+
+/* line 87, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+.navbar-toggler {
+  float: right; }
+
+/* line 90, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+.search {
+  width: 3%; }
+
+/* line 96, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+#slider {
+  width: 100vw;
+  height: 70vh; }
+
+/* line 103, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+#content {
+  height: 100%;
+  width: 100vw;
+  padding: 7% 10%;
+  background-color: white; }
+
+/* line 112, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+#latest {
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  /* line 117, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+  #latest .latest-1 {
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    font-family: "Minion Pro";
+    border-bottom: 1px solid #999; }
+    /* line 124, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+    #latest .latest-1 .image {
+      width: 100%;
+      height: 100%;
+      overflow: hidden; }
+      /* line 128, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+      #latest .latest-1 .image img {
+        width: 100%;
+        z-index: 10; }
+    /* line 133, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+    #latest .latest-1 p {
+      line-height: 15px;
+      overflow: hidden;
+      text-align: justify;
+      font-size: 14px; }
+
+/* line 141, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+span {
+  color: #963843;
+  font-family: "Franklin Gothic";
+  font-size: 12px; }
+
+/* line 146, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+.ribbon {
+  position: absolute; }
+  /* line 148, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+  .ribbon img {
+    width: 40px; }
+
+/* line 154, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+#top-stories {
+  height: 100%; }
+  /* line 157, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+  #top-stories .top-1 {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #999;
+    overflow: hidden;
+    margin-top: 7px; }
+    /* line 166, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+    #top-stories .top-1 .top-image {
+      width: 150px;
+      height: 70px;
+      overflow: hidden; }
+      /* line 171, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+      #top-stories .top-1 .top-image img {
+        height: 120%; }
+    /* line 175, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+    #top-stories .top-1 .top-desc {
+      width: 78%;
+      height: 100px;
+      padding: 0 7px;
+      overflow: hidden; }
+      /* line 181, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+      #top-stories .top-1 .top-desc p {
+        line-height: 16px;
+        font-size: 14px; }
+
+/* line 191, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+#front-page {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  /* line 196, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+  #front-page .front-image {
+    background-color: #222;
+    padding: 5px; }
+    /* line 199, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+    #front-page .front-image img {
+      width: 100%; }
+
+/* line 206, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+.top-desc > p, h3 {
+  overflow: hidden;
+  font-family: "Franklin Gothic";
+  font-weight: lighter; }
+
+/* line 213, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+h1 {
+  width: 100%;
+  padding: 2px 0 0 0;
+  border: 5px solid #963843;
+  text-align: center;
+  background-color: #782c35;
+  color: white;
+  font-family: "Minion Pro";
+  font-size: 1.7em; }
+
+/* line 236, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+#display-image {
+  width: 100vw;
+  height: 75vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Minion Pro";
+  font-size: 5em;
+  color: white;
+  text-transform: uppercase; }
+
+/* line 252, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+footer {
+  width: 100vw;
+  height: 100%;
+  margin-bottom: -1px;
+  padding: 5%;
+  background-color: #222;
+  font-size: 13px; }
+  /* line 261, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+  footer p {
+    overflow: hidden;
+    color: #999; }
+
+/* line 267, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+.info, .explore, .subscribe {
+  height: 100%; }
+
+/* line 270, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+.info {
+  border-right: 1px solid #999; }
+  /* line 273, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+  .info img {
+    width: 240px; }
+
+/* line 277, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+.explore {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-right: 1px solid #999; }
+  /* line 278, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+  .explore div {
+    margin-right: 50px; }
+    /* line 280, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+    .explore div a {
+      text-decoration: none;
+      color: #999;
+      font-size: 14px;
+      font-weight: lighter; }
+    /* line 288, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+    .explore div a:hover {
+      color: white; }
+
+/* line 297, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+.subscribe .btn {
+  width: 42px;
+  height: 39px;
+  position: absolute;
+  margin: -39px 0 0 205px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAMAAAAR8Wy4AAAAKlBMVEUAAAD///////////////////////////////////////////////////+Gu8ovAAAADXRSTlMAECAwQGBwgLDA0ODw+14txgAAAFVJREFUeAFty0sOxDAIA1APDORDfP/rtkVZkKpPLJAxEG+FC4KHwHoHxoNBrHSWCUJlcpuqAbKhMeWC5yAa5K4iX/3n9yxmkIbZYAKL76Dz0AH9F4oLUtYJK4cvleIAAAAASUVORK5CYII=); }
+
+/* line 308, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+.subscribe .form-control {
+  width: 210px; }
+
+/* line 312, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+.explore, .subscribe {
+  padding-left: 30px; }
+  /* line 314, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+  .explore p, .subscribe p {
+    width: 900px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Minion Pro";
+    font-size: 30px;
+    font-weight: lighter; }
+
+/* line 325, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+.social-subscribe {
+  width: 150px;
+  height: 80px;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  /* line 333, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+  .social-subscribe img {
+    width: 30px;
+    overflow: hidden;
+    transition: all 220ms ease-out; }
+  /* line 338, C:/Users/Iah/Desktop/Angelite/source/sass/main.scss */
+  .social-subscribe img:hover {
+    transform: scale(1.4); }
